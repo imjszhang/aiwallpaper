@@ -33,7 +33,7 @@ export default function ({ setWallpapers }: Props) {
 
   const requestGenWallpaper = async function () {
     try {
-      const uri = "/api/protected/gen-wallpaper";
+      const uri = "/api/protected/gen-wallpaper-dify";
       const params = {
         description: description,
       };
